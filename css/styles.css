@@ -1,0 +1,52 @@
+h3{
+  font-size: 15px;
+}
+img{
+  width: 150px;
+  height: 150px;
+}
+footer{
+  background-color: #00695c;
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+footer p{
+  margin:auto;
+  padding: 30px;
+}
+.sticky-top{
+  height: 150px;
+  background-color: #2BBBAD;
+}
+.float-right{
+  text-decoration: none;
+  padding: 120px;
+
+}
+.float-right a{
+  margin-right:  20px;
+  color: black;
+
+
+  }
+.float-right a i{
+     font-size: 25px;
+
+   }
+   .float-right a i:hover{
+     color: #C1C4C4;
+   }
+.results{
+  float: left;
+}
+#outcomes{
+  font-family: sans-serif;
+  border: 5px solid #C1C4C4;
+  position: fixed;
+  width: 350px;
+  height: 500px;
+  border-radius: 8px;
+  background-color: #C1C4C4;
+  text-align: center;
+}
