@@ -28,10 +28,11 @@ $(document).ready(function() {
     for(i=1; i<=total; i++){
       if(eval('q'+i)==answ[i-1]){
           score++;
+
       }
     }
     window.alert("You scored "+ score++ );
-    var average=((score/total)*100);
+    var average=((score++/total)*100);
     alert(average);
 
     if(average>=80){
@@ -52,4 +53,4 @@ onSubmit()
 
 
 
-}));
+});
