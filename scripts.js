@@ -15,3 +15,10 @@ $(document).ready(function() {
       var q8=document.forms["form"]["q7"].value;
       var q9=document.forms["form"]["q8"].value;
       var q10=document.forms["form"]["q9"].value;
+
+      
+      for(i=1; i<=total; i++){
+    if(eval('q'+i)==null || eval('q'+i)==''){
+      alert("plizzzz!!!...answer question "+i)
+    }
+  }
