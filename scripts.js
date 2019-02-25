@@ -46,3 +46,10 @@ $(document).ready(function() {
       var out="not well done... you scored "+average+"%";
       document.getElementById("outcomes").innerHTML=out;
     }
+  }
+onSubmit()
+});
+
+
+
+}));
