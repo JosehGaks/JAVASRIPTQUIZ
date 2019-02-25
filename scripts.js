@@ -16,9 +16,20 @@ $(document).ready(function() {
       var q9=document.forms["form"]["q8"].value;
       var q10=document.forms["form"]["q9"].value;
 
-      
+
       for(i=1; i<=total; i++){
     if(eval('q'+i)==null || eval('q'+i)==''){
       alert("plizzzz!!!...answer question "+i)
     }
   }
+
+  var answ=["d","c","a","a","d","a","b","a","b","b"];
+
+    for(i=1; i<=total; i++){
+      if(eval('q'+i)==answ[i-1]){
+          score++;
+      }
+    }
+    window.alert("You scored "+ score++ );
+    var average=((score/total)*100);
+    alert(average);
