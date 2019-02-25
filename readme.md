@@ -14,7 +14,7 @@ The code entirely runs on javascript, HTML and CSS, so no dependencies needed.
 ## Known Bugs
 No known bugs
 ## Technologies Used
-I used Javascript AND JSQUERY for the back-end and some bit of HTML and CSS for the front-end.
+I used Javascript AND JQUERY for the back-end and some bit of HTML and CSS for the front-end.
 ## Support and contact details
 If there is any problem of the sort, or bugs in my program you can contact me at josehwilddog@gmail.com. Your contributions will be very helpful.
 ### License
