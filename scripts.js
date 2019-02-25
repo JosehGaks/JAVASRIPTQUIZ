@@ -33,3 +33,16 @@ $(document).ready(function() {
     window.alert("You scored "+ score++ );
     var average=((score/total)*100);
     alert(average);
+
+    if(average>=80){
+      var out="excellent... you scored "+average+"%";
+      document.getElementById("outcomes").innerHTML=out;
+    }
+    else if (average>=50) {
+      var out="thATS FAIR... you scored "+average+"%";
+      document.getElementById("outcomes").innerHTML=out;
+    }
+    else {
+      var out="not well done... you scored "+average+"%";
+      document.getElementById("outcomes").innerHTML=out;
+    }
