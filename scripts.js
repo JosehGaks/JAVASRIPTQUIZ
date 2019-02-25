@@ -35,15 +35,15 @@ $(document).ready(function() {
     alert(average);
 
     if(average>=80){
-      var out="excellent... you scored "+average+"%";
+      var out="Excellent... you scored "+average+"%";
       document.getElementById("outcomes").innerHTML=out;
     }
     else if (average>=50) {
-      var out="thATS FAIR... you scored "+average+"%";
+      var out="Thats FAIR... you scored "+average+"%";
       document.getElementById("outcomes").innerHTML=out;
     }
     else {
-      var out="not well done... you scored "+average+"%";
+      var out="Poorly done!!!!!... you scored "+average+"%" + " kindly retake the quiz";
       document.getElementById("outcomes").innerHTML=out;
     }
   }
