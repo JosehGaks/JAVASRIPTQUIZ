@@ -4,6 +4,7 @@ var score=0;
 $(document).ready(function() {
   $('#questions').submit(function(event) {
     event.preventDefault();
+    //business logic
     function onSubmit(){
       var q1=document.forms["form"]["q"].value;
       var q2=document.forms["form"]["q1"].value;
@@ -31,6 +32,7 @@ $(document).ready(function() {
 
       }
     }
+    //user interface
     window.alert("You scored "+ score++ );
     var average=((score++/total)*100);
     alert(average);
